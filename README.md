@@ -2,6 +2,19 @@
 
 A python function file that colours output strings.
 
+---
+**Contents**
+1. [Usage](#usage)
+2. [Commands](#commands)
+    - [Basic Colours](#basic-colours)
+    - [Bright Variants](#bright-variants)
+    - [Other Formatting](#other-formatting)
+    - [256 Colour Support](#256-colour-support)
+
+
+---
+
+
 ## **Usage**
 
 1. Download the  `pyColour.py`  file into your project's directory, or use git:  `git clone https://github.com/blue-horizons/pyColour/blob/pyColour.py`
@@ -58,7 +71,14 @@ Reverse|`reverse(string)`
 ### **256 Colour support**
 
 For custom colours, use the following command:
-`colour_256(string, 0 -> 255)`
+`colour_256(string, [0 -> 255])`
 
+### Highlighting
 
+Highlighting is also possible, and you can use the same commands as before, just with `bg` infront of it (i.e. `bgBlue(string)`, `bgBright_magenta(string)`)
 
+---
+---
+
+###### Note
+###### This project is loosely based on the idea of Simple Chalk.
